@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 100px 15px;
+    margin: 0 auto;
+
+    
+}
+
+.section-title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-menu{
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    z-index: 9999;
+
+    
+}
+
+.nav-item{
+    color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-container{
+    float: right;
+}
+
+.main-section{
+    height: 100vh;
+    background: linear-gradient(#DB7E7E, #FFC997);
+    overflow: hidden;
+
+
+}
+
+.main-contant{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: max-content;
+    z-index: 10;
+}
+
+.main-contant-text{
+    font-size: 100px;
+    text-shadow: #ff61ea 2px 10px;
+    color: #fff;
+}
+
+.main-content-btn{
+    font-size: 25px;
+    display: block;
+    margin: 15px auto;
+    height: 80px;
+    width: 300px;       
+    border-radius: 50px;
+    box-shadow: 10px 10px 0 #E06161;
+    background-color: #fff;
+    text-align: center; 
+    line-height: 70px;  
+}
+
+.main-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.circle1{
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    animation: rotate-move 10s linear 0s infinite normal;
+}
+
+
+
+.circle2{
+    position: absolute;
+    top: -100px;
+    right: 5px;
+    animation: move-left-down 10s linear 0s infinite;
+}
+
+.circle3{
+    position: absolute;
+    height: 500px;
+    top: 350px;
+    left: -30px;
+    animation: move-up-left 8s linear 0s infinite;
+}
+
+.circle-bordered{
+    position: absolute;
+    top: 650px;
+    left: 300px;
+    animation: move-right 15s linear 0s infinite;
+}
+
+.circle-dashed-border{
+    position: absolute;
+    top: 500px;
+    right: -40px;
+    animation: rotation 10s linear 0s infinite;
+}
+
+.triangle{
+    position: absolute;
+    top: 100px;
+    right: 800px;
+    animation: move-right 25s linear 0s infinite normal;
+}
+
+.octagon{
+    position: absolute;
+    top: 520px;
+    right: 600px;
+    animation: move-rotate 10s linear 0s infinite alternate-reverse;
+}
+
+/* .about{
+    text-align: center;
+} */
+
+
+.section-text{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.doing{
+    background: linear-gradient(7deg, #DB7E7E 18.07%, #FFC997 70%, #FFFFFF 70%);
+}
+
+.doing-left{
+   display: inline-block; 
+   width: 45%;
+   vertical-align: top;
+
+}
+
+.doing-right{
+    display: inline-block;
+    width: 45%;
+}
+
+.doing-right img{
+    height: 100%;
+    width: 100%;
+    margin: 50px 0 0 15px;
+}
+
+.doing-text{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 0 #E06161;
+}
+
+.services{
+    text-align: center;
+    
+    
+    
+}
+
+.card{
+    width: 23%;
+    height: 450px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid #FFC997;
+    border-radius: 30px;
+    padding: 20px;
+    vertical-align: top;
+    margin: 20px;
+    
+    
+    
+}
+
+hr{
+    background-color: #E06161;
+    width: 50%;
+    height: 2px;
+    border: none;
+    margin: auto;
+    margin-bottom: 10px;
+    
+
+}
+
+h3{
+    margin: 10px;
+}
+
+.advantages-card-title{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.advantages-card{
+    margin: 50px auto;
+    border: 5px solid #FFC997;
+    box-shadow: 10px 10px 0 #E06161;
+    border-radius: 20px;
+    padding: 30px;
+    width: 600px;
+    z-index: 1983;
+    background-color: #FFFFFF;
+}
+
+.advantages-list{
+    list-style-type: circle;
+
+}
+
+.adv-card1{
+    position: relative;
+    left: -100px;
+
+    
+}
+
+.adv-card2{
+    position: relative;
+    right: -100px;
+}
+
+.adv-card3{
+    position: relative;
+    left: -80px;
+}
+
+
+.advantages-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.advantages-circle{
+    position: absolute;
+    bottom: 0px;
+    right: -150px;
+    
+
+}
+
+.advantages-hexagon{
+    position: sticky;
+    top: 0%;
+    right: 0px;
+}
+
+.advantages{
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-table{
+    width: 100%;
+    height: 600px;
+}
+
+.cell1{
+    background: url("img/portfolio/site1.png") center/cover no-repeat;
+    
+}
+
+.cell2{
+    background: url("img/portfolio/site2.png") center/cover no-repeat;
+}
+
+.cell3{
+    background: url("img/portfolio/site3.png") center/cover no-repeat;
+}
+
+.cell4{
+    background: url("img/portfolio/site4.png") center/cover no-repeat;
+}
+
+.portfolio-cell{
+    border-radius: 20px;
+    border: 5px solid #E06161;
+    transition: 1s;
+    width: 49%;
+    height: 200px;
+    display: inline-block;
+}
+
+.portfolio-cell:hover{
+    transform: scale(0.9);
+}
+
+@keyframes move-up-left{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(40px,80px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes move-right{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(230%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes move-rotate{
+    0%{
+        transform: translate(0,0) rotate(0);
+    }
+    50%{
+        transform: translate(80px,200px) rotate(180deg);
+    }
+    100%{
+        transform: translate(0,0) rotate(359deg);
+    }
+}
+
+@keyframes move-left-down-rotate{
+    0%{
+        transform: translate(0,0) rotate(0);
+    }
+    50%{
+        transform: translate(-180px,200px) rotate(180deg);
+    }
+    100%{
+        transform: translate(0,0) rotate(359deg);
+    }
+}
+
+@media(max-width:1320px){
+    .advantages-hexagon{
+        width: 15%;
+    }
+}
+
+@media(max-width:1100px){
+    .card img{
+        width: 80%;
+    }
+}
+
+@media(max-width:970px){
+    .main-contant-text{
+        font-size: 70px;
+        width: 600px;
+        text-align: center;
+    }
+
+    .card{
+        width: 30%;
+        margin: 5px;
+    }
+
+    .adv-card1{
+        left: 0;
+    }
+
+    .adv-card2{
+        right: 0;
+    }
+
+    .adv-card3{
+        left: 0;
+    }
+
+    .doing-left{
+        display: block; 
+        width: 80%;
+        margin: auto;
+     
+     }
+     
+     .doing-right{
+         display: block;
+         width: 45%;
+         margin: auto;
+     }
+
+}
+
+@media(max-width:800px){
+    .card{
+        display: block;
+        margin: auto;
+        width: 40%;
+        margin-top: 10px;
+        height: 370px;
+    }
+
+    .portfolio-cell{
+        display: block;
+        margin: auto;
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .advantages-circle{
+        display: none;
+    }
+
+    .advantages-hexagon{
+        display: none;
+    }
+
+    .circle1{
+        position: absolute;
+        top: -100px;
+        left: -50px;
+        animation: rotate-move 10s linear 0s infinite normal;
+        display: none;
+    }
+    
+    
+    
+    .circle2{
+        position: absolute;
+        top: -100px;
+        right: 5px;
+        animation: move-left-down 10s linear 0s infinite;
+        display: none;
+    }
+    
+    .circle3{
+        position: absolute;
+        height: 500px;
+        top: 350px;
+        left: -30px;
+        animation: move-up-left 8s linear 0s infinite;
+    
+    }
+    
+    .circle-bordered{
+        position: absolute;
+        top: 650px;
+        left: 300px;
+        animation: move-right 15s linear 0s infinite;
+        display: none;
+    }
+    
+    .circle-dashed-border{
+        position: absolute;
+        top: 500px;
+        right: -40px;
+        animation: rotation 10s linear 0s infinite;
+        display: none;
+    }
+    
+    .triangle{
+        position: absolute;
+        top: 100px;
+        right: 800px;
+        animation: move-right 25s linear 0s infinite normal;
+        
+    }
+    
+    .octagon{
+        display: none;
+    }
+}
+
+@media(max-width:670px){
+    .nav-item{
+        margin-left: 95px;
+    }
+
+
+    .advantages-card{
+        width: 80%;
+    }
+
+    .section-title{
+        font-size: 30px;
+    }
+
+    .main-contant-text{
+        width: 400px;
+    }
+
+
+}
+
+@media(max-width:600px){
+    .nav-item{
+        margin-left: 60px;
+    }
+
+    .card{
+        width: 50%;
+    }
+
+    .section-text{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:500px){
+    .nav-item{
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:440px){
+    .nav-item{
+        margin-left: 20px;
+    }
+}
+
+
